@@ -1,3 +1,9 @@
 h1{
-    color:darksalmon
+    color:rgb(239, 236, 235);
+}
+body{
+    background-image: url(https://media.cnn.com/api/v1/images/stellar/prod/211227135008-02-the-batman-trailer.jpg?c=16x9&q=w_800,c_fill);
+    background-size: cover;
+    background-repeat: no-repeat;
+
 }

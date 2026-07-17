@@ -1,1 +1,1 @@
-alert("danerys is ineviteble");
+alert("danerys is ineviteble")
