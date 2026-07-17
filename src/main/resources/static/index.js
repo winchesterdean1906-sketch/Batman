@@ -1,0 +1,1 @@
+alert("danerys is ineviteble");
