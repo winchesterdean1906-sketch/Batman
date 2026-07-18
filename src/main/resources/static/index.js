@@ -37,18 +37,17 @@ function randomuser(){
     {
         var userData =  data.results[0];
 
-         // 1: image
-            var userImage = document.getElementById("user-image");
-            userImage.src = userData.picture.large;
+        //image
+        var userimage=userData.picture.large;
+        document.getElementById("user-image").src=userimage;
 
-            // 2: name
-            var userName = document.getElementById("user-name");
-            userName.innerHTML = userData.name.first + " " +
-                                    userData.name.last;
+        //name
+        var username=userData.name.first + " " + userData.name.last;
+        document.getElementById("user-name").innerHTML = username;
 
-            // 3: gender
-            var userGender = document.getElementById("user-gender");
-            userGender.innerHTML = userData.gender;
+        //gender
+        var usergender=userGender=userData.gender;
+        document.getElementById("user-gender").innerHTML=usergender;
         })
         
 }
